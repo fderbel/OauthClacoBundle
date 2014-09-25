@@ -1,0 +1,10 @@
+fos_oauth_server:
+    db_driver: orm
+    client_class:        Coat\OauthClacoBundle\Entity\Client
+    access_token_class:  Coat\OauthClacoBundle\Entity\AccessToken
+    refresh_token_class: Coat\OauthClacoBundle\RefreshToken
+    auth_code_class:     Coat\OauthClacoBundle\Entity\AuthCode
+    service:
+        user_provider: platform.user.provider
+        options:
+            supported_scopes: user
