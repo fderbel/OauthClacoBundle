@@ -11,8 +11,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "friendsofsymfony/oauth-server-bundle" : "dev-master",
-        "coat/oauth-claco-bundle": "dev-master"
+        "friendsofsymfony/oauth-server-bundle" : "dev-master"
     },
     "autoload": {
         "psr-0": { "Acme\\OAuthServerBundle": "" }
