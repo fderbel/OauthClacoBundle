@@ -18,7 +18,7 @@
     },
     "target-dir": "Acme/OAuthServerBundle",
     "extra": {
-        "dbVersion": "20130820133717"
+        "dbVersion": "20130820173717"
     }
     
 }
