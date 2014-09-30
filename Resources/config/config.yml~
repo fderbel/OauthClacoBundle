@@ -1,0 +1,8 @@
+fos_oauth_server:
+    db_driver:  mongodb
+    client_class:        Acme\OAuthServerBundle\Document\Client
+    access_token_class:  Acme\OAuthServerBundle\Document\AccessToken
+    refresh_token_class: Acme\OAuthServerBundle\Document\RefreshToken
+    auth_code_class:     Acme\OAuthServerBundle\Document\AuthCode
+imports:
+    - { resource: "@FOSOAuthServerBundle/Resources/config/security.yml" }
